@@ -26,7 +26,7 @@ const IndexPage = () => (
     <br/>
     <br/>
     <Row>
-      <Col  xs="12" md="4" lg="4" >
+      <Col  xs="12" md="5" sm="5" lg="4" >
       <Card className="ResumeCard " body outline color="dark" >
       
       <img className="top-image-center" src={SV}/>
@@ -56,12 +56,15 @@ const IndexPage = () => (
            
       </Card>
       </Col>
+      
 
-      <Col xs="12" md="4" lg="8">
+      {/* technologies */}
+      <Col xs="12" md="7" sm="7" lg="8">
       <Card body outline color = "dark">
       <Row>
 
       <Col>
+      <div className="ISH">
       <Card body inverse color="info">
         <CardTitle tag="h5">FrontEnd Technoolgies</CardTitle>
         <ButtonGroup>
@@ -69,7 +72,7 @@ const IndexPage = () => (
         <Button size="sm" outline color="light"><FaVuejs size={25}/> beginner </Button>
         </ButtonGroup>
       </Card>
-
+      </div>
       </Col>
 
       <Col>
@@ -91,6 +94,9 @@ const IndexPage = () => (
       </Card>
       </Col>
     </Row>   
+
+
+
     </CardBody>
     </Card>
     </Container>
