@@ -59,7 +59,8 @@ const IndexPage = () => (
       
 
       {/* technologies */}
-      <Col xs="12" md="7" sm="7" lg="8">
+      
+      <Col className="ISH" xs="12" md="7" sm="7" lg="8">
       <Card body outline color = "dark">
       <Row>
 
@@ -76,6 +77,7 @@ const IndexPage = () => (
       </Col>
 
       <Col>
+      <div className="ISH">
       <Card body inverse color="warning">
         <CardTitle className="backend" tag="h5">BackEnd Technoolgies</CardTitle>
         <ButtonGroup>
@@ -83,6 +85,7 @@ const IndexPage = () => (
         <Button size="sm" outline color="dark"><FaPython size={25}/> 1 year </Button>
         </ButtonGroup>
       </Card>
+      </div>
       </Col>
 
       </Row>
@@ -93,6 +96,8 @@ const IndexPage = () => (
       </div>
       </Card>
       </Col>
+   
+
     </Row>   
 
 
