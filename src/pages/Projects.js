@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./styles.css"
 import {Container,Card,CardBody} from "reactstrap"
 import NavBar from "../components/Nav"
 import Footer from "../components/footer"
